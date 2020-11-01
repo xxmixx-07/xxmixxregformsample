@@ -1,0 +1,50 @@
+body{ 
+	background-image:url("FinalProjectImgs/nvd_bg1.jpg"); /* Background Image */
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-color:rgb(25,25,25);
+}
+
+#div01{
+	background-image:url("FinalProjectImgs/dota2.jpg"); /* Div 1 where dota 2 background is */
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size: 900px;
+}
+#div02{
+	background-image:url("FinalProjectImgs/cs3.jpg"); /* Div 2 where Counter-Strike background is */
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size: 900px;
+}
+#div03{
+	background-image:url("FinalProjectImgs/tekken7.jpg"); /* Div 1 where Tekken 7 background is */
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size: 900px;
+}
+.RedAst{
+	padding-left: 5px; /*Red Asterisk if Value is Empty*/
+	color: red;
+}
+.GButtons{
+	width:100px; /* Submit and Reset Buttons */
+}
+.divX{
+	width:60%;
+	border-style:groove;
+	border-width:2px;
+	border-color:rgb(118,185,0); /* CSS of div element with divX class */
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:10px;
+	font-family:Segoe UI;
+	color:#76b900;
+	background: rgba(204, 204, 204, 0.10);	
+	height:155px;
+}
+
+

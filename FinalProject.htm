@@ -1,0 +1,87 @@
+<!-- This is the Registration Page -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>GAMING REG FORM</title>
+<link rel="stylesheet" type="text/css" href="FinalProject.css"/>
+
+</head>
+
+<body> <!-- Body of the page where the registration form is -->
+<form id="formx" style="color:white;"></form>
+<form id="formx1" style="color:green;"></form>
+ <div>
+  <form id="GF"> <!-- form to submit -->
+    <div class="divX" id="div01">
+		<table>
+
+		 <tr>
+		  <td>First Name:</td><td><input type="text" id="FN" onblur="VFName()"/><span id="ErrorFN" class="RedAst"></span></td>
+		  <td>Last Name: </td><td><input type="text" id="LN" onblur="VLName()"/><span id="ErrorLN" class="RedAst"></span></td>
+		  <tr>
+		  <td>Birthdate:</td><td><input type="date" id="BD" onblur="VBDate()" min="1900-01-01" max="2015-01-01"><span id="ErrorBD" class="RedAst"></span></td><td></td><td></td>
+		 </tr>
+		 
+
+		 <tr>
+		  <td style="padding-bottom:45px">Gender:</td>
+		  <td><input type="radio" id="male"   name="gender" value="Male"checked/><label style="color:#ffffff">Male</label></br>
+			  <input type="radio" id="female" name="gender" value="Female"/><label style="color:#ffffff">Female</label></br>
+			  <input type="radio" id="other"  name="gender" value="Other" /><label style="color:#ffffff">Other</label></td>
+		 </tr>
+
+		 
+		 <tr>
+		  <td>Mobile No.:</td><td><input type="text" id="MN" onblur="VPhoneNo()"/ value="xxx-xxx-xxxx" onclick="ClrMN()" onfocus="ClrMN()"/><span id="ErrorMN" class="RedAst"></span></td>
+		  <td>Email Address:</td><td><input type="email" id="EA" onblur="ValEAdd()"/><span id="ErrorEA" class="RedAst"></td>
+		 </tr>
+		
+		</table>
+	</div>
+	<div class="divX" id="div02">
+		<table>
+		 <tr>
+		  <td style="padding-bottom:115px">Video Game Genre:</td>
+		  <td><input type="checkbox" id="AdvG"   name="Genre1" value="Adventure Games"/><label style="color:#ffffff">Adventure</label></br>
+			  <input type="checkbox" id="RPG"    name="Genre2" value="Role PLaying Games"/><label style="color:#ffffff">Role Playing Games</label></br>
+			  <input type="checkbox" id="FightG" name="Genre3" value="Fighting Games"/><label style="color:#ffffff">Fighting Games</label></br>
+			  <input type="checkbox" id="RTSG"   name="Genre4" value="Real-Time Strategy Games"/><label style="color:#ffffff">Real Time Strategy Games</label></br>
+			  <input type="checkbox" id="FPSG"   name="Genre5" value="First Person Games"><label style="color:#ffffff">First Person Games</label></br>
+			  <input type="checkbox" id="Racing" name="Genre6" value="Racing Games"><label style="color:#ffffff">Racing Games</label>
+		  </td>
+	 </tr>
+		</table>
+	</div>
+	<div class="divX" id="div03">
+		<table>
+		 <tr>
+		  <td>Player Name:</td><td><input type="text" id="PN" onblur="PlyrName()"/><span id="PName" class="RedAst"></span></td>
+		 </tr>
+		 <tr>
+		  <td>User ID:</td><td><input type="text" id="UID" onblur="UserID()"/><span id="UName" class="RedAst"></span></td>
+		 </tr>
+		 <tr>
+		  <td>Password:</td><td><input type="password" id="PW" onblur="ValPW()"/><span id="UName" class="RedAst"></span></td>
+		 </tr>
+		 <tr>
+		  <td>Confirm Password:</td><td><input type="password" id="CPW" onblur="ConfirmPW()"/><span id="UName" class="RedAst"></span></td>
+		 </tr>
+		</table>
+	</div>
+	<table>
+	 <tr>
+	  <td><input type="Button" id="SubmitApp"  class="GButtons" value="Submit" onclick="SubmitReg()"/>&nbsp
+	      <input type="button" id="resetField" class="GButtons" value="Reset"  onclick="CLR()"/></td>
+	 </tr>
+	</table>
+  </form>
+ </div>
+
+<h1></h1>
+<p></p>
+
+
+
+
+</body>
+</html>
